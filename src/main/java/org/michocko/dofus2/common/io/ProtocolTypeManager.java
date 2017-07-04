@@ -40,8 +40,8 @@ public final class ProtocolTypeManager {
 		}
 	}
 
-	public void register(int networkTypeId, Class<? extends INetworkType> typeClass) {
-		types.put((short) networkTypeId, typeClass);
+	public void register(short networkTypeId, Class<? extends INetworkType> typeClass) {
+		types.put(networkTypeId, typeClass);
 	}
 
 	@SuppressWarnings("unchecked")
