@@ -1,4 +1,4 @@
-package org.michocko.dofus2.common.io;
+package org.chuckame.dofus2.common.io;
 
 /**
  * @author Blackrush
